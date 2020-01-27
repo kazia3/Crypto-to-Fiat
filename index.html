@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitcoin Ticker</title>
+</head>
+<body>
+    <h1>Crypto to Fiat Converter</h1>
+    <p>Select the crypto currency and fiat currency of choice and we will tell you the current conversion rate.</p>
+    <form action="/" method="POST">
+        <input type="text" name="amount">
+        
+        <select name="crypto">
+            <option value = "BTC">Bitcoin</option>
+            <option value = "ETH">Ethereum</option>
+            <option value = "LTC">Litecoin</option>
+        </select>
+
+        <select name="fiat">
+            <option value = "USD">Dollar</option>
+            <option value = "GBP">Pound</option>
+            <option value = "EUR">Euro</option>
+        </select>
+
+        <button type="submit" name="submit">Calculate</button>
+    </form>
+</body>
+</html>
